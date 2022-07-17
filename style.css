@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding: 2rem;
+}
+body{
+    background-color: var(--body-color);
+}
+/* Variables for color */
+:root{
+    --body-color:#2e3047;
+    --container-color:#5baedb;
+    --box-color:#171b3c;
+}
+
+.main-body{
+    max-width: 350px;
+    margin-left: 40%;
+    background-color: #262733;
+}
+
+.header-image{
+    width: 350px;
+    height: 350px;
+}
+
+.header-title{
+    font-size: 20px;
+    color: var(--container-color);
+    text-align: center;
+    margin-block: 10px;
+}
+
+.header-text{
+    font-size: 18px;
+    color: #db885b;
+    text-align: center;
+    margin-block: 5px;
+}
+
+.buttons{
+    text-align: center;
+    font-size: 40px;
+}
+
+.buttons .email{
+    background-color: azure;
+    color:#2e3047;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.email i{
+    padding: 0.2rem;
+    font-weight: 400;
+}
+
+.linkedIn i{
+    padding: 0.2rem;
+    font-weight: 400;
+}
+.buttons .linkedIn{
+    background-color: rgb(70, 182, 182);
+    color:#f0f0f4;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.about {
+    margin: 20px;
+    margin-block: 15px;
+    padding-top: 20px;
+    width: 90%;
+    color: rgb(245, 244, 244);
+}
+
+.interest {
+    margin: 20px;
+    padding-top: 15px;
+    margin-block: 15px;
+    width: 90%;
+    color: rgb(245, 244, 244);
+}
+
+footer{
+    text-align: center;
+    background-color: #1f2024;
+}
+
+footer i{
+    font-size: 25px;
+    background-color: rgb(130, 139, 147);
+    border-radius: 5px;
+    color:whitesmoke;
+   margin: 10px;
+}
